@@ -88,8 +88,6 @@ color:var(--primary-font-color);
 /* ---------------HEADER------------------- */
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 25px;
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -425,21 +423,19 @@ color:var(--primary-font-color);
     justify-content: center;
     width: 100%;
     height: 100%;
+    color: #AFB1B8;
 }
 
 .clients-company-icon{
-    fill:#AFB1B8;
+    fill:currentColor;
 }
 
-.clietnst-list-item:hover,
-.clietnst-list-item:focus {
-    border: 1px solid var(--first-background-color);
-}
-
-.clietnst-list-item:hover .clients-company-icon,
-.clietnst-list-item:focus .clients-company-icon {
+.clieants-link:hover .clients-company-icon,
+.clieants-link:focus .clients-company-icon {
     fill: var(--first-background-color);
+
 }
+
 
 
 /* -----------FOOTER--------------- */
